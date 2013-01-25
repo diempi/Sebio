@@ -6,7 +6,7 @@ header{height:8.5em;}
 #top-search{width:30%;float:left;height:100%;margin-bottom:0;}#top-search fieldset{padding-top:4em;}#top-search fieldset input{margin:0;}
 .navbar-inner{padding:0;height:1.5em;}
 .nav{padding:0;margin:0 !important;height:2.5em;width:80%;float:left;}.nav li{width:16.666666666666666666666666666667%;font-size:0.9em;text-align:center;}.nav li a{padding-left:0 !important;padding-right:0 !important;display:block;width:100%;}
-.nav li ul{display:none;}
+.nav li ul{display:none;}.nav li ul li{width:100%;text-align:left;font-size:0.8em;}.nav li ul li a{padding:0 0.5em;}
 .nav li:hover ul{display:block;}
 #shop-cart{width:12%;height:2.5em;float:right;line-height:2.5em;margin-left:2em;padding-right:1.5em;}#shop-cart .icon-basket{display:block;width:30%;float:left;margin-top:0.8em;}
 footer p{font-size:85%;text-align:center;margin-top:1em;}

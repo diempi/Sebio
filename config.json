@@ -1,0 +1,57 @@
+{
+  "name": "",
+  "glyphs": [
+    {
+      "search": [
+        "home"
+      ],
+      "code": 8962,
+      "uid": "513ac180ff85bd275f2b736720cbbf5e",
+      "css": "home",
+      "orig_css": "home",
+      "orig_code": 8962,
+      "src": "entypo",
+      "from": 8962
+    },
+    {
+      "search": [
+        "trash",
+        "delete"
+      ],
+      "code": 59177,
+      "uid": "2626e3a1bbcd90e45849af3b58a1d594",
+      "css": "trash",
+      "orig_css": "trash",
+      "orig_code": 59177,
+      "src": "entypo",
+      "from": 59177
+    },
+    {
+      "search": [
+        "basket",
+        "shopping",
+        "cart"
+      ],
+      "code": 59197,
+      "uid": "e126987944593dfee041f8e2a68145db",
+      "css": "basket",
+      "orig_css": "basket",
+      "orig_code": 59197,
+      "src": "entypo",
+      "from": 59197
+    },
+    {
+      "search": [
+        "search",
+        "find"
+      ],
+      "code": 128269,
+      "uid": "7222571caa5c15f83dcfd447c58d68d9",
+      "css": "search",
+      "orig_css": "search",
+      "orig_code": 128269,
+      "src": "entypo",
+      "from": 128269
+    }
+  ]
+}

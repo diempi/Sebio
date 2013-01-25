@@ -1,0 +1,516 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"sect",
+				"SECTION"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"summ",
+				"summary_display"
+			],
+			[
+				"for",
+				"form_submit"
+			],
+			[
+				"ge",
+				"generateMap"
+			],
+			[
+				"la",
+				"lati"
+			],
+			[
+				"big",
+				"bigImg"
+			],
+			[
+				"Im",
+				"ImgSrcBig"
+			],
+			[
+				"I",
+				"ImgSrc"
+			],
+			[
+				"po",
+				"posCoord"
+			],
+			[
+				"his",
+				"historyHasChanged"
+			],
+			[
+				"a",
+				"active"
+			],
+			[
+				"lik",
+				"link"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"ti",
+				"titre"
+			],
+			[
+				"Descri",
+				"description"
+			],
+			[
+				"data",
+				"dataout"
+			],
+			[
+				"site",
+				"sitetitle"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"pic",
+				"picture"
+			],
+			[
+				"re",
+				"res"
+			],
+			[
+				"curl",
+				"curl_exec"
+			],
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"lie",
+				"liensModele"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"r",
+				"res"
+			],
+			[
+				"pos",
+				"post"
+			],
+			[
+				"lien",
+				"lien_actuel"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10094,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/wamp/www/shoploop.html",
+			"settings":
+			{
+				"buffer_size": 27954,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 2701,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 285.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/git/sebio/css/fontello.css",
+		"/opt/lampp/htdocs/cours/Dropbox/sebio/css/fontello-codes.css",
+		"/opt/lampp/htdocs/sebio/index.html",
+		"/opt/lampp/htdocs/sebio/css/main.css",
+		"/opt/lampp/htdocs/sebio/css/bootstrap.css",
+		"/opt/lampp/htdocs/sebio/css/bootstrap-responsive.css",
+		"/opt/lampp/htdocs/sebio/css/bootstrap-responsive.min.css",
+		"/opt/lampp/htdocs/cours/Dropbox/logopd/.htaccess",
+		"/opt/lampp/htdocs/cours/Dropbox/logopd/sites/all/modules/calendar/theme/theme.inc",
+		"/home/atelier/eclipse/eclipse-php.ini",
+		"/home/atelier/eclipse/eclipse-php",
+		"/opt/lampp/htdocs/dpl/cours/.htaccess",
+		"/opt/lampp/htdocs/dpl/cours/sites/default/settings.php",
+		"/opt/lampp/htdocs/linkser/application/views/confirm.php",
+		"/opt/lampp/htdocs/linkser/application/views/listeLiens.php",
+		"/opt/lampp/htdocs/linkser/application/views/signin.php",
+		"/opt/lampp/htdocs/linkser/application/models/liensmodele.php",
+		"/opt/lampp/htdocs/linkser/application/controllers/site.php",
+		"/opt/lampp/htdocs/linkser/application/controllers/main.php",
+		"/home/diempi/Téléchargements/Cours 5 - Géoloc & Google Maps/js/script.js",
+		"/opt/lampp/htdocs/ria/test/index.html",
+		"/opt/lampp/htdocs/ria/test/js/script.js",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/historique/js/script.js",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/test/index.html",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/test/js/script.js",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/exercice/script.js",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/historique/index.html",
+		"/opt/lampp/htdocs/ria/geoloc/index.html",
+		"/opt/lampp/htdocs/ria/geoloc/geoloc",
+		"/opt/lampp/htdocs/ria/geoloc/js/script.js",
+		"/home/diempi/Téléchargements/Cours 5 - Géoloc & Google Maps/index.html",
+		"/home/diempi/Bureau/geoloc/index.html",
+		"/home/diempi/Bureau/web/liensModele.php",
+		"/opt/lampp/htdocs/linkser/application/views/vueUpdate.php",
+		"/home/diempi/Bureau/web/listeLiens.php",
+		"/home/diempi/Bureau/web/site.php",
+		"/opt/lampp/htdocs/linkser/application/models/members.php",
+		"/opt/lampp/htdocs/linkser/script.js",
+		"/home/diempi/Bureau/web/vueUpdate.php",
+		"/tmp/fz3temp-2/site.php",
+		"/opt/lampp/htdocs/linkser/application/config/autoload.php",
+		"/tmp/fz3temp-1/langue.php",
+		"/home/diempi/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/opt/lampp/htdocs/linkser/application/controllers/dom.php",
+		"/opt/lampp/htdocs/linkser/README",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/flatland/js/script.js",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/flatland/index.html",
+		"/opt/lampp/htdocs/linkser/application/config/config.php",
+		"/opt/lampp/htdocs/linkser/application/libraries/js/script.js",
+		"/home/diempi/.cache/.fr-viDIIL/curl/c.php",
+		"/opt/lampp/htdocs/linkser/loadlink.php",
+		"/opt/lampp/htdocs/linkser/.htaccess",
+		"/opt/lampp/htdocs/linkser/index.php",
+		"/opt/lampp/htdocs/linkser/application/views/layout.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/models/liensmodele.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/config/routes.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/config/config.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/config/database.php",
+		"/opt/lampp/htdocs/linkser/application/config/constants.php",
+		"/opt/lampp/htdocs/linkser/application/config/routes.php",
+		"/opt/lampp/htdocs/linkser/application/config/database.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/models/members.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/controllers/loadlink.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/controllers/site.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/controllers/split_url.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/config/autoload.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/controllers/simple_html_dom.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/config/hooks.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"div",
+			"h2",
+			".btn",
+			"View details &raquo;",
+			"#007CBA",
+			" .",
+			"hover",
+			"visited",
+			"green",
+			"host",
+			"';",
+			");\n",
+			"foo",
+			"DOMd",
+			"get_meta"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Ajouter au panier",
+			"#00CB73"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 10094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5596,
+								5596
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/shoploop.html",
+					"settings":
+					{
+						"buffer_size": 27954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27954,
+								27954
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 2701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								542,
+								542
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 176.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true
+}

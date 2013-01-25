@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
 				"pa",
 				"padding"
 			],
@@ -62,10 +78,6 @@
 			[
 				"bac",
 				"background-color"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"ba",
@@ -191,30 +203,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 10094,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/wamp/www/shoploop.html",
-			"settings":
-			{
-				"buffer_size": 27954,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/main.css",
-			"settings":
-			{
-				"buffer_size": 2701,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -248,6 +236,16 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/git/sebio/index.html",
+		"/C/wamp/www/shoploop.html",
+		"/C/wamp/www/git/sebio/home.html",
+		"/C/wamp/www/git/sebio/css/sebio.less",
+		"/C/wamp/www/git/Sebio/.gitattributes",
+		"/C/wamp/www/git/sebio/.git/description",
+		"/C/wamp/www/git/sebio/.git/index",
+		"/C/wamp/www/git/sebio/css/main.less",
+		"/C/wamp/www/git/sebio/css/main.css",
+		"/C/wamp/www/git/sebio/crossdomain.xml",
 		"/C/wamp/www/git/sebio/css/fontello.css",
 		"/opt/lampp/htdocs/cours/Dropbox/sebio/css/fontello-codes.css",
 		"/opt/lampp/htdocs/sebio/index.html",
@@ -333,6 +331,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bra",
 			"div",
 			"h2",
 			".btn",
@@ -367,91 +366,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 10094,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5596,
-								5596
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 510.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/wamp/www/shoploop.html",
-					"settings":
-					{
-						"buffer_size": 27954,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27954,
-								27954
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 30.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/main.css",
-					"settings":
-					{
-						"buffer_size": 2701,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								542,
-								542
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 176.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -461,7 +377,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -511,6 +427,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 202.0,
+	"side_bar_width": 194.0,
 	"status_bar_visible": true
 }

@@ -3,6 +3,11 @@
    ========================================================================== */
 @import "fontello.css";
 
+body{
+	font-family:Trebuchet, Tahoma, Arial, sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+}
 
 header{
 	height: 8.5em;
@@ -19,24 +24,74 @@ header{
 
 .desc{
 
-	width: 60%;
+	width: 52%;
 	float: left;	
 	padding: 3.8em 0 0 0;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	color: #03c972;
 }
 #top-search{
 	width: 30%;
-	float: right;
+	float: left;
 	height: 100%;
 	margin-bottom: 0;
 	fieldset{
-		padding-top: 5.5em;
+		padding-top: 4em;
 		input{
 			margin: 0;
 		}
 	}
 }
+
+/* MENU */
+.navbar-inner{
+	padding: 0;
+	height: 1.5em;
+}
+
+.nav{
+	padding: 0;
+	margin: 0 !important;
+	height: 2.5em;
+	width: 80%;
+	float: left;
+	li{
+		width: 16.666666666666666666666666666667%;
+		font-size: 0.9em;
+		text-align: center;
+		a{
+			padding-left: 0 !important;
+			padding-right: 0 !important; 
+			display: block;
+			width: 100%;
+		}
+	}
+}
+
+.nav li ul {
+	
+	display: none;
+}
+
+.nav li:hover ul{
+	display: block;
+}
+
+#shop-cart{
+	width: 12%;
+	height: 2.5em;
+	float: right;
+	line-height: 2.5em;
+	margin-left: 2em;	
+	padding-right: 1.5em;
+	.icon-basket{
+		display: block;
+		width: 30%;
+		float: left;
+		margin-top: 0.8em;
+	}
+}
+
 
 footer p{
 	font-size: 85%;

@@ -1,0 +1,12 @@
+SetEnv PHP_VER 5_4
+Options -Indexes
+<IfModule mod_deflate.C>
+# MOD_DEFLATE COMPRESSION
+SetOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
+</IfModule>
+
+
+# KILL THEM ETAGS
+Header unset ETag
+FileETag none

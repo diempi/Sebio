@@ -1,12 +1,20 @@
 @import "fontello.css";
-body{font-family:Trebuchet,Tahoma,Arial,sans-serif;font-size:100%;font-weight:normal;}
+body{font-family:Frutiger,'Frutiger Linotype',Univers,Calibri,'Gill Sans','Gill Sans MT','Myriad Pro',Myriad,'DejaVu Sans Condensed','Liberation Sans','Nimbus Sans L',Tahoma,Geneva,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:100%;font-weight:normal;}
 header{height:8.5em;}
-.brand{float:left;width:10% ;height:96px;text-indent:-99999px;background-image:url('../img/logo2.png');background-repeat:no-repeat;}
+.brand{float:left;width:10% ;height:96px;text-indent:-99999px;background-image:url('../img/logo2.png');background-repeat:no-repeat;}.brand a{display:block;width:100%;height:96px;}
 .desc{width:52%;float:left;padding:3.8em 0 0 0;font-size:1.1em;color:#03c972;}
-#top-search{width:30%;float:left;height:100%;margin-bottom:0;}#top-search fieldset{padding-top:4em;}#top-search fieldset input{margin:0;}
+#top-search{width:38%;float:right;height:100%;margin-bottom:0;text-align:right;}#top-search fieldset{padding-top:4em;}#top-search fieldset input{margin:0;}
 .navbar-inner{padding:0;height:1.5em;}
 .nav{padding:0;margin:0 !important;height:2.5em;width:80%;float:left;}.nav li{width:16.666666666666666666666666666667%;font-size:0.9em;text-align:center;}.nav li a{padding-left:0 !important;padding-right:0 !important;display:block;width:100%;}
-.nav li ul{display:none;}.nav li ul li{width:100%;text-align:left;font-size:0.8em;}.nav li ul li a{padding:0 0.5em;}
+.nav li ul{display:none;}.nav li ul li{width:100%;text-align:left;font-size:0.80em;}.nav li ul li a{padding:0 0.5em;}
 .nav li:hover ul{display:block;}
 #shop-cart{width:12%;height:2.5em;float:right;line-height:2.5em;margin-left:2em;padding-right:1.5em;}#shop-cart .icon-basket{display:block;width:30%;float:left;margin-top:0.8em;}
-footer p{font-size:85%;text-align:center;margin-top:1em;}
+.hero-unit{padding:0;color:#fff;font-weight:normal;}.hero-unit h1{font-size:2em;}
+.hero-unit .lead{width:90%;font-size:1.5em;float:left;}
+.carousel-control{top:50%;}
+#main-content{margin-bottom:2em;clear:both;}
+.product{display:block;width:32%;float:left;margin-right:0.75em;margin-top:2em;}
+footer{clear:both;margin-top:2em;}
+footer p{font-size:85%;text-align:center;margin-top:0.5em;margin-bottom:0;}
+#legals,#pay-method{text-align:center;margin-top:1em;}
+#legals{margin:1em 0 0 0;background-color:#beb;}#legals li{display:inline-block;width:30%;}#legals li a{color:#656;display:block;padding:0.5em 0;}

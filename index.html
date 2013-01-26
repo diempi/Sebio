@@ -6,7 +6,8 @@
             <title>SeBIO - Produits naturels, bio et écologiques pour toute la famille</title>
             <meta name="description" content="SeBIO - Produits naturels, bio et écologiques pour toute la famille">
             <meta name="viewport" content="width=device-width">
-            <link rel="stylesheet" href="css/bootstrap.min.css">
+            <link rel="stylesheet" href="css/bootstrap.min.css">            
+            <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
             <link rel="stylesheet" type="text/css" href="css/sebio.css">
         </head>
         <body>
@@ -82,10 +83,106 @@
                 </nav><!-- Menu de Navigation -->
 
                 <div class="hero-unit">
-                    <img src="http://lorempixel.com/940/250/nature/">
+                    <div id="myCarousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="item">
+                                <img src="http://lorempixel.com/940/350/nature/1">
+                                <div class="carousel-caption">
+                                    <h1>Nom du produit</h1>
+                                    <p class="lead">Prix: 50€</p>
+                                    <a class="btn btn-large btn-success" href="produit.html">Acheter</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="http://lorempixel.com/940/350/nature/2">
+                                <div class="carousel-caption">
+                                    <h1>Nom du produit</h1>
+                                    <p class="lead">Prix: 70€</p>
+                                    <a class="btn btn-large btn-success" href="produit.html">Acheter</a>
+                                </div>                                
+                            </div>      
+                            <div class="item">
+                                <img src="http://lorempixel.com/940/350/nature/3">
+                                <div class="carousel-caption">
+                                    <h1>Nom du produit</h1>
+                                    <p class="lead">Prix: 10€</p>
+                                    <a class="btn btn-large btn-success" href="produit.html">Acheter</a>
+                                </div>                                
+                            </div>
+                            <div class="item">
+                                <img src="http://lorempixel.com/940/350/nature/4">
+                                <div class="carousel-caption">
+                                    <h1>Nom du produit</h1>
+                                    <p class="lead">Prix: 30€</p>
+                                    <a class="btn btn-large btn-success" href="produit.html">Acheter</a>
+                                </div>                                
+                            </div>                                                  
+                        </div>
+                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                    </div>
+                    
                 </div><!-- Slider -->
-            </div>
+                <div id="main-content">
+                    <ul id="product-gallery">
+                        <li class="product" itemscope itemtype="http://schema.org/Product">
+                            <div class="product-img"><img src="img/produit-fillgo-cuisine.jpg" title="Bouteille d'eau filtrante Fill & Go (Brita)" alt="Bouteille d'eau filtrante & Fill  Go (Brita)" height="150px" width="250px"></div>
+                            <h5 class="product-title" itemprop="name">Bouteille d'eau filtrante & Fill  Go (Brita)</h5>
+                            <h6 class="product-price" itemprop="price">15,95 €</h6>
+                            <p><a class="btn btn-success" href="produit.html">Acheter</a></p>
+                        </li> 
+                        <li class="product" itemscope itemtype="http://schema.org/Product">
+                            <div class="product-img"><img src="img/produit-huile-confort.jpg" title="Huile Confort absolu à l'amande (Weleda)" alt="Huile Confort absolu à l'amande (Weleda)" height="150px" width="250px"></div>
+                            <h5 class="product-title" itemprop="name">Huile Confort absolu à l'amande (Weleda)</h5>
+                            <h6 class="product-price" itemprop="price">13,95 €</h6>
+                            <p><a class="btn btn-success" href="produit.html">Acheter</a></p>
+                        </li> 
+                        <li class="product" itemscope itemtype="http://schema.org/Product">
+                            <div class="product-img"><img src="img/produit-recharges-diffuseurs.jpg" title="Recharges pour Diffuseur USB (Florame) - Pack de 3" alt="Recharges pour Diffuseur USB (Florame) - Pack de 3" height="150px" width="250px"></div>
+                            <h5 class="product-title" itemprop="name">Recharges pour Diffuseur USB (Florame)</h5>
+                            <h6 class="product-price" itemprop="price">6,99 €</h6>
+                            <p><a class="btn btn-success" href="produit.html">Acheter</a></p>
+                        </li>  
+                        <li class="product" itemscope itemtype="http://schema.org/Product">
+                            <div class="product-img"><img src="img/produit-livre.jpg" title="Parler pour que les enfants écoutent, écouter pour que les enfants parlent (Faber & Mazlish)" alt="Parler pour que les enfants écoutent, écouter pour que les enfants parlent (Faber & Mazlish)" height="150px" width="250px"></div>
+                            <h5 class="product-title" itemprop="name">Parler pour que les enfants écoutent(Faber & Mazlish)</h5>
+                            <h6 class="product-price" itemprop="price">22,00 €</h6>
+                            <p><a class="btn btn-success" href="produit.html">Acheter</a></p>
+                        </li> 
+                        <li class="product" itemscope itemtype="http://schema.org/Product">
+                            <div class="product-img"><img src="img/produit-eliksir.jpg" title="Floradix Fer + Plantes - Comprimés (Salus)" alt="Floradix Fer + Plantes - Comprimés (Salus)" height="150px" width="250px"></div>
+                            <h5 class="product-title" itemprop="name">Floradix Fer + Plantes - Comprimés (Salus)</h5>
+                            <h6 class="product-price" itemprop="price">12,10 €</h6>
+                            <p><a class="btn btn-success" href="produit.html">Acheter</a></p>
+                        </li>
+                        <li class="product" itemscope itemtype="http://schema.org/Product">
+                            <div class="product-img"><img src="img/produit-mam.jpg" title="Couverture de portage - Multicover (MaM®)" alt="Couverture de portage - Multicover (MaM®)" height="150px" width="250px"></div>
+                            <h5 class="product-title" itemprop="name">Couverture de portage - Multicover (MaM®)</h5>
+                            <h6 class="product-price" itemprop="price">79,95 €</h6>
+                            <p><a class="btn btn-success" href="produit.html">Acheter</a></p>
+                        </li>  
+                    </ul>
+                </div><!-- Fin du contenu principal -->
+            <footer>
+                <!-- Moyens de paiements acceptes -->
+                <div id="pay-method" class="clearfix">
+                    <img src="./img/mode-paiement.jpg" title="Modes de paiement acceptes" alt="Modes de paiement acceptes" height="50px" width="276px">
+                    
+                </div><!-- Fin des moyens de paiements acceptes -->
+ 
+                <ul id="legals" class="clearfix">
+                    <li><a href="#" title="Conditions générales de vente">Conditions générales de vente</a></li>
+                    <li><a href="#" title="Mentions légales">Mentions légales</a></li>
+                    <li><a href="#" title="Contact">Contact</a></li>
+                </ul>  
+                <p>&copy; SEBIO 2012</p>
+            </footer>
+            </div><!-- fin du div conatiner -->
             
-            <script src="http://code.jquery.com/jquery-latest.js"></script>
+            <!--<script src="http://code.jquery.com/jquery-latest.js"></script>
+            <script src="js/bootstrap-transition.js"></script>  
+            <script src="js/bootstrap-carousel.js"></script>-->
+            <script src="js/jsfiles.js"></script>
+            <script src="js/main.js"></script>
         </body>
     </html>

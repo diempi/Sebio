@@ -4,24 +4,44 @@
 		"selected_items":
 		[
 			[
-				"padding",
-				"padding-top"
+				"padd",
+				"padding"
 			],
 			[
 				"font",
-				"font-size"
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-right"
 			],
 			[
 				"margin",
 				"margin-bottom"
 			],
 			[
-				"cl",
-				"clear"
-			],
-			[
 				"pa",
 				"padding"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"cl",
+				"clear"
 			],
 			[
 				"inlin",
@@ -56,16 +76,8 @@
 				"text-align"
 			],
 			[
-				"marg",
-				"margin-right"
-			],
-			[
 				"fl",
 				"float"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"wid",
@@ -203,6 +215,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 13542,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/sebio.less",
+			"settings":
+			{
+				"buffer_size": 3120,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -236,6 +272,11 @@
 	},
 	"file_history":
 	[
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/settings.php",
+		"/C/wamp/www/git/Sebio/js/main.js",
+		"/C/wamp/www/git/Sebio/produit.html",
+		"/C/wamp/www/git/Sebio/.htaccess",
+		"/C/wamp/www/git/Sebio/js/bootstrap-carousel.js",
 		"/C/wamp/www/git/sebio/index.html",
 		"/C/wamp/www/shoploop.html",
 		"/C/wamp/www/git/sebio/home.html",
@@ -331,6 +372,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"’",
+			"‘",
 			"bra",
 			"div",
 			"h2",
@@ -354,6 +397,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'",
 			"Ajouter au panier",
 			"#00CB73"
 		],
@@ -366,8 +410,90 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 13542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4364,
+								4364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/sebio.less",
+					"settings":
+					{
+						"buffer_size": 3120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1425,
+								1425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 766.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

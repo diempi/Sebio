@@ -24,7 +24,11 @@ header{height:8.5em;}
 h3{height:40px;}
 span{margin-bottom:1em;}
 p{margin-top:1em;}
+.product-name{width:40%;}
+.quantity{width:20%;}
 .quantity input{width:15%;}
+#paylinks a{display:block;width:50%;}#paylinks a:first-child{float:left;}
+#paynow{float:right;text-align:right;}
 footer{clear:both;margin-top:2em;}
 footer p{font-size:85%;text-align:center;margin-top:0.5em;margin-bottom:0;}
 #legals,#pay-method{text-align:center;margin-top:1em;}

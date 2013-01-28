@@ -29,6 +29,8 @@ p{margin-top:1em;}
 .quantity input{width:15%;}
 #paylinks a{display:block;width:50%;}#paylinks a:first-child{float:left;}
 #paynow{float:right;text-align:right;}
+#existconsumer{width:50%;float:left;}
+#newconsumer{width:50%;float:right;}
 footer{clear:both;margin-top:2em;}
 footer p{font-size:85%;text-align:center;margin-top:0.5em;margin-bottom:0;}
 #legals,#pay-method{text-align:center;margin-top:1em;}

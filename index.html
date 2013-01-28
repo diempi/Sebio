@@ -13,7 +13,7 @@
         <body>
             <div class="container">
                 <header>
-                    <h1 class="brand"><a href="index.html" title="Accueil">SeBIO - Produits naturels, bio et écologiques pour toute la famille</a></h1><!-- Logo -->
+                    <h1 class="brand"><a href="index.html" title="Accueil"><img src="img/logo2.png" title="Logo de Sebio" alt="Logo de Sebio"> </a></h1><!-- Logo -->
                     <div class="desc">Produits naturels, bio et écologiques pour toute la famille</div>
                     <form action="#" method="post" id="top-search">
                         <fieldset>
@@ -33,9 +33,9 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bons Plans <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="nouveaute.html">Nouveautés</a></li>
-                                    <li><a href="promo.html">Liquidation</a></li>
-                                    <li><a href="#">Chèques Cadeau</a></li> 
+                                    <li><a href="categorie.html">Nouveautés</a></li>
+                                    <li><a href="categorie.html">Liquidation</a></li>
+                                    <li><a href="categorie.html">Chèques Cadeau</a></li> 
                                 </ul>                                                
                         </li>
                         <li class="dropdown">
@@ -81,42 +81,34 @@
                     </ul> 
                     <div id="shop-cart"><span class="icon-basket"></span>0 Article</div>
                 </nav><!-- Menu de Navigation -->
-
+                <h1 class="promo-title">Promotions en cours</h1>
                 <div class="hero-unit">
                     <div id="myCarousel" class="carousel slide">
                         <div class="carousel-inner">
-                            <div class="item">
-                                <img src="http://lorempixel.com/940/350/nature/1">
+                            <div class="item" itemscope itemtype="http://schema.org/Product">
+                                <img src="img/slider-img.jpg" title="Pack Soin" alt="Pack Soin">
                                 <div class="carousel-caption">
-                                    <h1>Nom du produit</h1>
-                                    <p class="lead">Prix: 50€</p>
-                                    <a class="btn btn-large btn-success" href="produit.html">Acheter</a>
+                                    <h1 itemprop="name">Pack Soin</h1>
+                                    <p class="lead"  itemprop="price">Prix: 50€</p>
+                                    <a class="btn btn-large btn-success" href="produit.html" itemprop="url">Acheter</a>
                                 </div>
-                            </div>
-                            <div class="item">
-                                <img src="http://lorempixel.com/940/350/nature/2">
+                            </div>     
+                            <div class="item" itemscope itemtype="http://schema.org/Product">
+                                <img src="img/slider-img2.jpg" title="Pâtes en promo" alt="Pâtes en promo">
                                 <div class="carousel-caption">
-                                    <h1>Nom du produit</h1>
-                                    <p class="lead">Prix: 70€</p>
-                                    <a class="btn btn-large btn-success" href="produit.html">Acheter</a>
-                                </div>                                
-                            </div>      
-                            <div class="item">
-                                <img src="http://lorempixel.com/940/350/nature/3">
+                                    <h1 itemprop="name">Pâtes en promo</h1>
+                                    <p class="lead"  itemprop="price">Prix: 10€</p>
+                                    <a class="btn btn-large btn-success" href="produit.html"  itemprop="url">Acheter</a>
+                                </div> 
+                            <div class="item" itemscope itemtype="http://schema.org/Product">
+                                <img src="img/slider-img3.jpg" title="Lingettes pour bébé" alt="Lingettes pour bébé">
                                 <div class="carousel-caption">
-                                    <h1>Nom du produit</h1>
-                                    <p class="lead">Prix: 10€</p>
-                                    <a class="btn btn-large btn-success" href="produit.html">Acheter</a>
+                                    <h1 itemprop="name">Lingettes pour bébé</h1>
+                                    <p class="lead"  itemprop="price">Prix: 6€</p>
+                                    <a class="btn btn-large btn-success" href="produit.html"  itemprop="url">Acheter</a>
                                 </div>                                
-                            </div>
-                            <div class="item">
-                                <img src="http://lorempixel.com/940/350/nature/4">
-                                <div class="carousel-caption">
-                                    <h1>Nom du produit</h1>
-                                    <p class="lead">Prix: 30€</p>
-                                    <a class="btn btn-large btn-success" href="produit.html">Acheter</a>
-                                </div>                                
-                            </div>                                                  
+                            </div>                                                                
+                            </div>                                                
                         </div>
                         <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
                         <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>

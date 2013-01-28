@@ -238,6 +238,14 @@
 				"buffer_size": 121,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "produit.html",
+			"settings":
+			{
+				"buffer_size": 9540,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -410,7 +418,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -425,8 +433,8 @@
 						"selection":
 						[
 							[
-								4364,
-								4364
+								5568,
+								1635
 							]
 						],
 						"settings":
@@ -436,7 +444,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
+						"translation.y": 345.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -490,6 +498,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "produit.html",
+					"settings":
+					{
+						"buffer_size": 9540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5568,
+								5568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 825.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -79,10 +79,13 @@
                             </ul>
                         </li>     
                     </ul> 
-                    <div id="shop-cart"><span class="icon-basket"></span>1 Article</div>
+                    <div id="shop-cart"><span class="icon-basket"></span>2 Articles</div>
                 </nav><!-- Menu de Navigation -->
 
             <div class="container">
+                <nav class="breadcrumb" class="span12">
+                    <a href="index.html" title="Accueil">Accueil</a> > <a href="compte.html" title="Mon compte">Mon Compte</a> > Panier
+                </nav>
                     <table class="table table-striped">
                         <caption><h1 class="title">Votre panier d'achat</h1></caption>
                         <tr>
@@ -90,6 +93,7 @@
                             <th>Quantité en stock</th>
                             <th>Prix</th>
                             <th>Quantité achetée</th>
+                            <th>Prix total</th>                            
                             <th></th>
                         </tr>
                         <tr>
@@ -97,6 +101,7 @@
                             <td class="stock">43</td>                       
                             <td class="price">6.94€</td>
                             <td class="quantity"><input type="number" name="quantity" value="4"></td>
+                            <td class="total-prod-price">27.76€</td>
                             <td><a href="#" title="Supprimer l'article">Retirer</a></td>
                         </tr>
                           <tr>
@@ -104,12 +109,14 @@
                             <td class="stock">10</td>                       
                             <td class="price">2.40€</td>
                             <td class="quantity"><input type="number" name="quantity" value="1"></td>
+                            <td class="total-prod-price">2.40€</td>
                             <td><a href="#" title="Supprimer l'article">Retirer</a></td>
                         </tr>
                     </table>  
                     <div id="paylinks">
-                        <a href="categorie.html" title="Retour aux achats"><- Continuer vos achats</a>
-                        <a id="paynow" href="panier-etape1.html" title="Procéder au paiement">Procéder au paiement -></a>
+                        <input type="button" onclick="goBack()" class="btn btn-warning" value="Continuer vos achats" />
+                        <p class="spacer"></p>
+                        <a href="panier-etape1.html" title="Procéder au paiement"  class="btn btn-warning paynow">Procéder au paiement</a>
                     </div>              
             </div>
                 </div><!-- Fin du contenu principal -->

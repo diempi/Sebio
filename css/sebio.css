@@ -27,8 +27,10 @@ p{margin-top:1em;}
 .product-name{width:40%;}
 .quantity{width:20%;}
 .quantity input{width:15%;}
-#paylinks a{display:block;width:50%;}#paylinks a:first-child{float:left;}
-#paynow{float:right;text-align:right;}
+#paylinks a{display:block;width:20%;}
+#paylinks input{float:left;}
+.spacer{width:50%;float:left;}
+.paynow{width:20%;float:right;text-align:right;}
 #existconsumer{width:50%;float:left;}
 #newconsumer{width:50%;float:right;}
 footer{clear:both;margin-top:2em;}

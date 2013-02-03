@@ -23,13 +23,14 @@
                             </label>
                         </fieldset>
                     </form><!-- Formulaire de recherche -->
+                    <!-- <div id="shop-cart"><span class="icon-basket"></span>0 Article</div>  -->
                 </header><!-- Fin du header -->
 
                 <nav class="navbar navbar-inner">
                     <ul class="nav">
                         <li><a href="index.html">Accueil</a></li>
 
-                        <li class="dropdown active">
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bons Plans <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="categorie.html">Nouveautés</a></li>
@@ -49,7 +50,7 @@
                                     <li><a href="categorie.html">Location de porte-bébés</a></li> 
                                 </ul>
                         </li>  
-                        <li class="dropdown">
+                        <li class="dropdown active">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Santé et Nature <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="categorie.html">Santé et bien-être</a></li>
@@ -78,49 +79,95 @@
                             </ul>
                         </li>     
                     </ul> 
-                    <div id="shop-cart"><a href="panier-vide.html" title="Votre panier"><span class="icon-basket"></span>0 Article</a></div>
+                    <div id="shop-cart"><a href="panier.html" title="Votre panier"><span class="icon-basket"></span>2 Articles</a></div>
                 </nav><!-- Menu de Navigation -->
 
-            <div class="row">
-                <nav class="breadcrumb" class="span12">
-                    <a href="index.html" title="Accueil">Accueil</a> > Catégorie du produit 
-                </nav>                
-                <div div="sidebar" class="span3">
-                        <h4>Rechercher par marque</h4>
-                        <form action="#">
-                            <select name="brand-search">
-                                <option value="Akha Biladjo">Akha Biladjo</option>
-                                <option value="Akwarius">Akwarius</option>
-                                <option value="Allo'Nature" selected>Allo'Nature</option>
-                                <option value="Babybio">Babybio</option>
-                                <option value="Babylegs">Babylegs</option>
-                                <option value="Smart Toys">Smart Toys</option>
-                                <option value="Terre d'Oc">Terre d'Oc</option>
-                                <option value="Urtrekam">Urtrekam</option>
-                            </select>
+            <div class="container">
+                <div class="logged"><h1>Bienvenue Jean George,</h1><a href="signout.html" title="Déconnectez-vous">Se déconnecter</a></div>
+                    <table class="table table-striped">
+                        <caption><h1 class="title">Votre panier d'achat</h1></caption>
+                        <tr>
+                            <th>Nom du produit</th>
+                            <th>Quantité en stock</th>
+                            <th>Prix</th>
+                            <th>Quantité achetée</th>
+                            <th>Prix total</th>                            
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td class="product-name">Diffuseur USB</td>
+                            <td class="stock">43</td>                       
+                            <td class="price">6.94€</td>
+                            <td class="quantity"><input type="number" name="quantity" value="4"></td>
+                            <td class="total-prod-price">27.76€</td>
+                            <td><a href="#" title="Supprimer l'article">Retirer</a></td>
+                        </tr>
+                          <tr>
+                            <td class="product-name">Huile Confort</td>
+                            <td class="stock">10</td>                       
+                            <td class="price">2.40€</td>
+                            <td class="quantity"><input type="number" name="quantity" value="1"></td>
+                            <td class="total-prod-price">2.40€</td>
+                            <td><a href="#" title="Supprimer l'article">Retirer</a></td>
+                        </tr>
+                    </table>    
+                    <div id="final-total" class="progress">
+                        <p class="total">Total: 30.16€</p>  
+                    </div>
+                    <div class="progress progress-striped">
+                        <div class="bar" style="width: 25%;">Vérification du panier</div>
+                        <div class="bar" style="width: 25%;">Vérification de votre adresse</div>
+                        <div class="bar" style="width: 50%;">Choix du mode de paiement et de livraison</div>
+                    </div>         
+                    <div id="facturation" class="adresse">
+                        <p><h2>Adresse de facturation</h2>
+                        <span>Jean George</span> 
+                        <span>1, Rue du Vert</span>
+                        <span>4000 Liège</span>
+                        <span>Belgique</span></p>
+                    </div>   
+                    <div di="livraison" class="adresse">
+                        <p><h2>Adresse de livraison</h2>
+                        <span>Jean George</span> 
+                        <span>1, Rue du Vert</span>
+                        <span>4000 Liège</span>
+                        <span>Belgique</span></p>
+                    </div>       
+                    <div class="clear">
+                        <h1>Choississez votre mode de paiement</h1>
+                        <form id="pay-form">
+                            <fieldset>
+                                <input type="radio" name="pay"><label for="pay">Visa</label>
+                            </fieldset>
+                            <fieldset>                                                    
+                                <input type="radio" name="pay"><label for="pay">Mastercard</label>                            
+                            </fieldset>                                
+                            <fieldset>                            
+                                <input type="radio" name="pay"><label for="pay">Bancontact</label>    
+                            </fieldset>                        
+                            <fieldset>                            
+                                <input type="radio" name="pay"><label for="pay">Virement</label>
+                            </fieldset>
                         </form> 
-                </div>
-                <div class="span3">
-                        <img src="./img/prev-mams.jpg" title="Disques filtrants "Fill & Go" (Brita) - 8 pièces - PROMO à - 10 %" alt="Image de Disques filtrants "Fill & Go" (Brita) - 8 pièces - PROMO à - 10 %">
-                        <h3>Disques filtrants "Fill & Go" (Brita)</h3>
-                        <p>Disques filtrants BRITA Fill&Go - Etui de 8 disques filtrants</p>
-                        <span>Prix: 11,66 €</span>
-                        <p><a class="btn btn-success" href="produit.html">Ajouter au panier</a></p>   
-               </div>
-                <div class="span3">
-                        <img src="./img/prev-fillgo.jpg" title="Bouteille d'eau filtrante "Fill & Go" (Brita) - PROMO à - 10 %" alt="Image de Bouteille d'eau filtrante "Fill & Go" (Brita) - PROMO à - 10 %">
-                        <h3>Bouteille d'eau filtrante "Fill & Go" (Brita)</h3>
-                        <p>Boire une eau au goût agréable n'a jamais été aussi simple ! </p>
-                        <span>Prix: 14,36 €</span>
-                        <p><a class="btn btn-success" href="produit.html">Ajouter au panier</a></p> 
-                </div>
-                <div class="span3">
-                        <img src="./img/prev-creme.jpg" title="Crème de jour" alt="Crème de jour">
-                        <h3>Crème de jour</h3>
-                        <p>Crème de jour pour un meilleur visage</p>
-                        <span>Prix: 8,94 €</span>
-                        <p><a class="btn btn-success" href="produit.html">Ajouter au panier</a></p>   
-                </div>                
+                    </div>   
+                    <div class="clear">
+                        <h1>Choississez votre mode de livraison</h1>
+                        <form id="delivery-form">
+                            <fieldset>
+                                <input type="radio" name="delivery"><label for="delivery">Bpost</label>
+                            </fieldset>
+                            <fieldset>                                                    
+                                <input type="radio" name="delivery"><label for="delivery">UPS</label>                            
+                            </fieldset>                                
+                            <fieldset>                            
+                                <input type="radio" name="delivery"><label for="delivery">Collissimo</label>    
+                            </fieldset>                        
+                        </form> 
+                    </div>                                           
+                    <div id="paylinks">
+                        <input type="button" onclick="goBack()" class="btn btn-warning" value="Continuer vos achats" />                        
+                        <a href="panier-etape4.html" title="Confirmer le paiement"  class="btn btn-success paynow">Confirmer le paiement </a>
+                    </div>             
             </div>
                 </div><!-- Fin du contenu principal -->
             <footer>

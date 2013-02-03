@@ -21,9 +21,15 @@ header{height:8.5em;}
 .product{display:block;width:32%;float:left;margin-right:0.75em;margin-top:4em;}
 .product-img img{opacity:0.6;-webkit-transition:opacity 0.5s ease-in-out;-moz-transition:opacity 0.5s ease-in-out;-o-transition:opacity 0.5s ease-in-out;transition:opacity 0.5s ease-in-out;}
 .product-img img:hover{opacity:0.9;}
+#pay-form input,#delivery-form input{margin-top:0;margin-right:0.5em;}
+#pay-form input,#delivery-form input,#pay-form label,#delivery-form label{display:inline-block;}
 h3{height:40px;}
 span{margin-bottom:1em;}
 p{margin-top:1em;}
+.logged{height:2.5em;background-color:#eaeaea;}.logged h1{width:70%;float:left;padding-left:0.5em;}
+.logged a{width:27%;float:right;text-align:right;padding:0.5em 0.5em;}
+#confirmation-ok{font-size:1.5em;line-height:1.2;}
+.clear{clear:both;}
 .product-name{width:40%;}
 .quantity{width:20%;}
 .quantity input{width:15%;}
@@ -31,8 +37,13 @@ p{margin-top:1em;}
 #paylinks input{float:left;}
 .spacer{width:50%;float:left;}
 .paynow{width:20%;float:right;text-align:right;}
-#existconsumer{width:50%;float:left;}
-#newconsumer{width:50%;float:right;}
+#existconsumer{width:40%;float:left;}
+#newconsumer{width:46%;float:right;}
+#final-total{height:100%;}
+.total{text-align:right;width:90%;padding-right:10%;}
+.adresse{width:50%;float:left;margin:1em 0;}
+#facturation{float:left;}
+#livraison{float:right;}
 footer{clear:both;margin-top:2em;}
 footer p{font-size:85%;text-align:center;margin-top:0.5em;margin-bottom:0;}
 #legals,#pay-method{text-align:center;margin-top:1em;}

@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
+				"m",
+				"margin-right"
+			],
+			[
 				"marg",
-				"margin-left"
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"back",
+				"background-color"
 			],
 			[
 				"border-r",
@@ -44,10 +56,6 @@
 				"margin-left"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
 				"padding",
 				"padding-top"
 			],
@@ -70,10 +78,6 @@
 			[
 				"co",
 				"color"
-			],
-			[
-				"back",
-				"background-image"
 			],
 			[
 				"bor",
@@ -224,34 +228,18 @@
 	"buffers":
 	[
 		{
-			"file": "produit.html",
-			"settings":
-			{
-				"buffer_size": 8391,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "css/sebio.less",
 			"settings":
 			{
-				"buffer_size": 3682,
+				"buffer_size": 4358,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "categorie.html",
+			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 9349,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "panier-etape1.html",
-			"settings":
-			{
-				"buffer_size": 9032,
+				"buffer_size": 92,
 				"line_ending": "Windows"
 			}
 		},
@@ -259,7 +247,39 @@
 			"file": "login.html",
 			"settings":
 			{
-				"buffer_size": 8581,
+				"buffer_size": 9247,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "panier-etape2.html",
+			"settings":
+			{
+				"buffer_size": 10175,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "panier-etape3.html",
+			"settings":
+			{
+				"buffer_size": 12252,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "compte.html",
+			"settings":
+			{
+				"buffer_size": 9873,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "commande2.html",
+			"settings":
+			{
+				"buffer_size": 7969,
 				"line_ending": "Windows"
 			}
 		}
@@ -296,18 +316,25 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/git/Sebio/commande1.html",
+		"/C/wamp/www/git/Sebio/panier-etape4.html",
+		"/C/wamp/www/git/Sebio/signout.html",
+		"/C/wamp/www/git/Sebio/signup.html",
+		"/C/wamp/www/git/Sebio/panier-etape1.html",
 		"/C/wamp/www/git/Sebio/panier.html",
-		"/C/wamp/www/git/pfe/html/logged/podcast-list.html",
+		"/C/wamp/www/git/Sebio/panier-vide.html",
+		"/C/wamp/www/git/Sebio/index.html",
+		"/C/wamp/www/git/Sebio/login.html",
 		"/C/wamp/www/git/Sebio/categorie.html",
+		"/C/wamp/www/git/Sebio/produit.html",
+		"/C/wamp/www/git/pfe/html/logged/podcast-list.html",
 		"/C/wamp/www/git/Sebio/contact.html",
 		"/C/wamp/www/git/Sebio/css/sebio.less",
-		"/C/wamp/www/git/Sebio/index.html",
 		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/.htaccess 2",
 		"/C/wamp/www/git/Sebio/js/main.js",
 		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/main 2.js",
 		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/.htaccess 3",
 		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/settings.php",
-		"/C/wamp/www/git/Sebio/produit.html",
 		"/C/wamp/www/git/Sebio/.htaccess",
 		"/C/wamp/www/git/Sebio/js/bootstrap-carousel.js",
 		"/C/wamp/www/git/sebio/index.html",
@@ -405,6 +432,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"50",
+			"clearfix",
+			"utilisateur",
+			"250px",
+			"150px",
+			"width",
+			"img",
 			"class=\"btn btn-success\" href=\"#\"",
 			"’",
 			"‘",
@@ -431,6 +465,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Jean George",
+			"250",
+			"150",
 			"class=\"btn btn-success\" href=\"produit.html\"",
 			"'",
 			"Ajouter au panier",
@@ -445,51 +482,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "produit.html",
-					"settings":
-					{
-						"buffer_size": 8391,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1470.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "css/sebio.less",
 					"settings":
 					{
-						"buffer_size": 3682,
+						"buffer_size": 4358,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3278,
+								3280
 							]
 						],
 						"settings":
@@ -498,25 +507,51 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2726.0,
+						"translation.y": 3221.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "categorie.html",
+					"file": "login.html",
 					"settings":
 					{
-						"buffer_size": 9349,
+						"buffer_size": 9247,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5566,
-								5566
+								8058,
+								8058
 							]
 						],
 						"settings":
@@ -526,25 +561,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1197.0,
+						"translation.y": 1800.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "panier-etape1.html",
+					"file": "panier-etape2.html",
 					"settings":
 					{
-						"buffer_size": 9032,
+						"buffer_size": 10175,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5557,
+								5557
 							]
 						],
 						"settings":
@@ -554,25 +589,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1605.0,
+						"translation.y": 1281.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "login.html",
+					"file": "panier-etape3.html",
 					"settings":
 					{
-						"buffer_size": 8581,
+						"buffer_size": 12252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								7554,
+								7407
 							]
 						],
 						"settings":
@@ -582,7 +617,63 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1650.0,
+						"translation.y": 1532.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "compte.html",
+					"settings":
+					{
+						"buffer_size": 9873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5800,
+								5800
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1281.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "commande2.html",
+					"settings":
+					{
+						"buffer_size": 7969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5831,
+								5617
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1350.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
